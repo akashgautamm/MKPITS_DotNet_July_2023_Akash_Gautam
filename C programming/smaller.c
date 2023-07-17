@@ -2,16 +2,16 @@
 void main()
 {
 	int n1,n2;
-	printf("Enter  age 1:");
+	printf("Enter 1 no:");
 	scanf("%d",&n1);
-	printf("Enter age 2 ");
+	printf("Enter 2 no:");
 	scanf("%d",&n2);
-	if (n1>60)
+	if (n1<n2)
 	{
-		printf("%d is old",n1);
+		printf("%d is smaller",n1);
 	}
 	else
 	{
-		printf("%d is adult");
+		printf("%d is smaller",n2);
 	}
 }
