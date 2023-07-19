@@ -28,7 +28,6 @@ void main()
 //2.Accept int salary,bonus=0.. char name[10]
 //3.Check wheather if salary is greater than or equal to 10000
 //  3.1 bonus=5000
-//  3.2 Go to step 9
 //4.Check wheather if salary 5000 is greater or equal to and salary is less than 10000
 //  4.1 bonus=2000
 //  4.2 Go to step 9
