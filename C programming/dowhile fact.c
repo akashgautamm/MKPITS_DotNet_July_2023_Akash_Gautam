@@ -1,19 +1,19 @@
 #include<stdio.h>
 void main()
 {
-	int num;
 	int fact=1;
+	int num;
 	printf("Enter num :");
 	scanf("%d",&num);
-	while(num>0)
+	do
 	{
 		fact=fact*num;
 		num=num-1;
 		
-    }
-    printf("Fact is %d",fact);
+	}
+	while(num>0);
+	printf("fact is %d",fact);
 }
-
 
 //1.Start
 //2.Declare num, fact=1
