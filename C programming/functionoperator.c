@@ -40,6 +40,19 @@ void main()
     }
 	
 }
+//1.Start
+//2.Define the function "calculate"
+//  2.1 Accept num1,num2,char op
+//  2.3 Formula is result=num1 (op) num2
+//3.Check switch(-,*,/,+)
+//  3.1 print"result"
+//4. Go to main function
+//  4.1 Check while ch='y'
+//  4.2 Read two num with user
+//  4.3 Choose the op
+//  4.4 Call function calculate num1,num2,op 
+//  4.5 print "do you want continue press y"
+//5.Stop
 
 
 

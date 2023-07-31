@@ -12,3 +12,10 @@ void main()
 	goto table;
 	}
 }
+//1.Start
+//2.Aceept num,i=1
+//3.Create table:
+//  3.1 printf num,i,num*i
+//4. Check if i<=10
+//  4.1 call statement goto "table"
+//5.Stop
