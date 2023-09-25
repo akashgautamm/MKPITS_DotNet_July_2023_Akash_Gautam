@@ -12,7 +12,8 @@ class employe
 	}
 	void display()
 	{
-		cout<<empnum<<empname;
+		cout<<"EMp num"<<empnum<<endl;
+		cout<<"name"<<empname<<endl;
 	}
 	
 };
