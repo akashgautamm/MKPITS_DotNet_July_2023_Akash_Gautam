@@ -1,0 +1,23 @@
+<html>
+    <form name="f1">
+        Enter age:<input type="text" id="n1"/><br><br>
+        <input type="button" value="Submit" onclick="vote();"/><br><br>
+        <span id="result">Show</span>
+
+    </form>
+    <script language="javascript">
+        function vote()
+        {
+            var age=parseInt(document.getElementById("n1").value);
+            if(age>=18)
+            {
+                document.getElementById("result").innerHTML="Elegible for vote";
+            }
+            else
+            {
+                document.getElementById("result").innerHTML="Not eligible for vote";
+            }
+        }
+
+    </script>
+</html>

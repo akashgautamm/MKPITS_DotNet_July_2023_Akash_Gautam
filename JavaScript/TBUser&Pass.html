@@ -1,0 +1,28 @@
+<html>
+    <form name="f1">
+        User Name:<input type="text" id="n1"/><br><br>
+        password:<input type="password" id="n2"><br><br>
+        <button type="button" onclick="check();">Submit</button><br><br>
+        <span id="result">Show</span>
+        
+
+
+    </form>
+    <script language="javascript">
+        function check()
+        {
+            var u=document.getElementById("n1").value;
+            var p=document.getElementById("n2").value;
+            if(u=="admin" && p=="admin")
+            {
+                document.getElementById("result").innerHTML="Login Successful";
+
+            }
+            else
+            {
+                document.getElementById("result").innerHTML="Invlid credentials";
+            }
+        }
+
+    </script>
+</html>

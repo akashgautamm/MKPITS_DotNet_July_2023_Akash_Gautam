@@ -1,0 +1,18 @@
+<html>
+    <form name="f1">
+        Enter Num:<input type="text" id="n1" name="t1"/><br><br>
+        <input type="button" value="Submit" onclick="square();"/><br><br>
+        <span id="result">Show</span>
+
+    </form>
+    <script language="javascript">
+        function square()
+        {
+            var num=document.getElementById("n1").value;
+            var result=num*num;
+            document.getElementById("result").innerHTML="Square is "+result;
+        }
+
+
+    </script>
+</html>

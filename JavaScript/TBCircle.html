@@ -1,0 +1,19 @@
+<html>
+    <form name="f1">
+        Enter Radius:<input type="text" id="n1"/><br><br>
+        <input type="button" value="Submit" onclick="circle();"/><br><br>
+        <span id="result">Show</span>
+
+    </form>
+    <script language="javascript">
+        function circle()
+        {
+        var radius=parseInt(document.getElementById("n1").value);
+        var result=3.14*radius*radius;
+        document.getElementById("result").innerHTML="Area of circle "+result;
+        }
+
+
+
+    </script>
+</html>
