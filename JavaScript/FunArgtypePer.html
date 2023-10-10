@@ -1,0 +1,32 @@
+<html>
+    <form name="f1">
+        Enter sub1:<input type="text" id="s1"/>
+        Enter sub2:<input type="text" id="s2"/>
+        Enter sub3:<input type="text" id="s3"/>
+        <input type="button" value="submit" onclick="getres(document.f1.s1.value,document.f1.s2.value,document.f1.s3.value);"/>
+        <span id="t"></span>
+        <span id="p"></span>
+
+    </form>
+    <script>
+        function gettotal(s1,s2,s3)
+        {
+            var total=parseInt(s1)+parseInt(s2)+parseInt(s3);
+            return total;
+        }
+        function getper(total)
+        {
+            var per=total/300.0*100.0;
+            return per;
+        }
+        function getres(s1,s2,s3)
+
+        
+        {
+            var tot=gettotal(s1,s2,s3);
+            document.getElementById("t").innerHTML=tot;
+            var perc=getper(tot);
+            document.getElementById("p").innerHTML=perc;
+        }
+    </script>
+</html>

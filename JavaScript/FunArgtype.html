@@ -1,0 +1,17 @@
+<script>
+    function gettotal(s1,s2,s3)
+    {
+        var total=parseInt(s1)+parseInt(s2)+parseInt(s3);
+        return total;
+
+    }
+    function getper(total)
+    {
+        var per=total/300.0*100.0;
+        return per;
+    }
+    var t=gettotal(90,80,90);
+    alert("Total "+t);
+    var p=getper(t);
+    alert("Per "+p);
+</script>
